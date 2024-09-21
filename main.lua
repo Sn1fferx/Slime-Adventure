@@ -37,13 +37,3 @@ function love.draw()
     if rotation == "left" them
     end
 end
-
--- помощь --
--- normal
---love.graphics.draw(image, x, y, rotation, 1, 1) 
---
--- mirror
---love.graphics.draw(image, x, y, rotation, -1, 1) 
---
--- flipped
---love.graphics.draw(image, x, y, rotation, 1, -1) 
